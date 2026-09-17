@@ -5,8 +5,8 @@ import (
 	"unsafe"
 )
 
-// BS represents a byte size unit; using int for proper memory sizing.
-type BS int
+// BS represents a byte size unit; using uint32 for proper memory sizing.
+type BS uint32
 
 const (
 	_      = iota
